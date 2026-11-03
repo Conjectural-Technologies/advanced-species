@@ -1,8 +1,0 @@
-2026/11/03-01:29:21.941084 7f672bfff6c0 Recovering log #48
-2026/11/03-01:29:22.203748 7f672bfff6c0 Delete type=3 #46
-2026/11/03-01:29:22.203896 7f672bfff6c0 Delete type=0 #48
-2026/11/03-05:08:34.859711 7f67293af6c0 Level-0 table #53: started
-2026/11/03-05:08:34.859738 7f67293af6c0 Level-0 table #53: 0 bytes OK
-2026/11/03-05:08:34.914804 7f67293af6c0 Delete type=0 #51
-2026/11/03-05:08:34.915032 7f67293af6c0 Manual compaction at level-0 from '!folders!dndCommonXXXXXXX' @ 72057594037927935 : 1 .. '!items.effects!spcWebWalkerXXXX.spcWebWalkerXXX2' @ 0 : 0; will stop at (end)
-2026/11/03-05:08:34.915080 7f67293af6c0 Manual compaction at level-1 from '!folders!dndCommonXXXXXXX' @ 72057594037927935 : 1 .. '!items.effects!spcWebWalkerXXXX.spcWebWalkerXXX2' @ 0 : 0; will stop at (end)
