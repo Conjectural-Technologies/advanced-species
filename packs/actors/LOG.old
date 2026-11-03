@@ -1,8 +1,8 @@
-2026/11/03-01:03:34.373584 7f6741bff6c0 Recovering log #43
-2026/11/03-01:03:34.620948 7f6741bff6c0 Delete type=3 #41
-2026/11/03-01:03:34.621011 7f6741bff6c0 Delete type=0 #43
-2026/11/03-01:28:37.323880 7f67293af6c0 Level-0 table #48: started
-2026/11/03-01:28:37.323927 7f67293af6c0 Level-0 table #48: 0 bytes OK
-2026/11/03-01:28:37.389775 7f67293af6c0 Delete type=0 #46
-2026/11/03-01:28:37.566746 7f67293af6c0 Manual compaction at level-0 from '!actors!spcOozeFormXXXXX' @ 72057594037927935 : 1 .. '!folders!spcTransformatio' @ 0 : 0; will stop at (end)
-2026/11/03-01:28:37.566804 7f67293af6c0 Manual compaction at level-1 from '!actors!spcOozeFormXXXXX' @ 72057594037927935 : 1 .. '!folders!spcTransformatio' @ 0 : 0; will stop at (end)
+2026/11/03-01:29:22.210384 7f6741bff6c0 Recovering log #47
+2026/11/03-01:29:22.469083 7f6741bff6c0 Delete type=3 #45
+2026/11/03-01:29:22.469149 7f6741bff6c0 Delete type=0 #47
+2026/11/03-05:08:34.915192 7f67293af6c0 Level-0 table #52: started
+2026/11/03-05:08:34.915303 7f67293af6c0 Level-0 table #52: 0 bytes OK
+2026/11/03-05:08:34.970085 7f67293af6c0 Delete type=0 #50
+2026/11/03-05:08:35.144235 7f67293af6c0 Manual compaction at level-0 from '!actors!spcOozeFormXXXXX' @ 72057594037927935 : 1 .. '!folders!spcTransformatio' @ 0 : 0; will stop at (end)
+2026/11/03-05:08:35.144314 7f67293af6c0 Manual compaction at level-1 from '!actors!spcOozeFormXXXXX' @ 72057594037927935 : 1 .. '!folders!spcTransformatio' @ 0 : 0; will stop at (end)

@@ -1,8 +1,8 @@
-2026/11/03-01:29:22.474039 7f6741bff6c0 Recovering log #46
-2026/11/03-01:29:22.745459 7f6741bff6c0 Delete type=3 #44
-2026/11/03-01:29:22.745535 7f6741bff6c0 Delete type=0 #46
-2026/11/03-05:08:35.091891 7f67293af6c0 Level-0 table #51: started
-2026/11/03-05:08:35.091931 7f67293af6c0 Level-0 table #51: 0 bytes OK
-2026/11/03-05:08:35.144043 7f67293af6c0 Delete type=0 #49
-2026/11/03-05:08:35.144299 7f67293af6c0 Manual compaction at level-0 from '!effects!dndBlindedXXXXXX' @ 72057594037927935 : 1 .. '!folders!spcUtilityItemEf' @ 0 : 0; will stop at (end)
-2026/11/03-05:08:35.144343 7f67293af6c0 Manual compaction at level-1 from '!effects!dndBlindedXXXXXX' @ 72057594037927935 : 1 .. '!folders!spcUtilityItemEf' @ 0 : 0; will stop at (end)
+2026/11/03-05:19:20.091031 7f6741bff6c0 Recovering log #50
+2026/11/03-05:19:20.380368 7f6741bff6c0 Delete type=3 #48
+2026/11/03-05:19:20.380451 7f6741bff6c0 Delete type=0 #50
+2026/11/03-05:19:52.887511 7f67293af6c0 Level-0 table #55: started
+2026/11/03-05:19:52.887539 7f67293af6c0 Level-0 table #55: 0 bytes OK
+2026/11/03-05:19:52.936517 7f67293af6c0 Delete type=0 #53
+2026/11/03-05:19:52.936717 7f67293af6c0 Manual compaction at level-0 from '!effects!dndBlindedXXXXXX' @ 72057594037927935 : 1 .. '!folders!spcUtilityItemEf' @ 0 : 0; will stop at (end)
+2026/11/03-05:19:52.936786 7f67293af6c0 Manual compaction at level-1 from '!effects!dndBlindedXXXXXX' @ 72057594037927935 : 1 .. '!folders!spcUtilityItemEf' @ 0 : 0; will stop at (end)
