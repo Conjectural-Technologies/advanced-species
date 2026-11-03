@@ -1,0 +1,106 @@
+{
+  "id": "advanced-species",
+  "title": "Advanced Species",
+  "version": "1.2.3",
+  "url": "https://github.com/Conjectural-Technologies/advanced-species",
+  "manifest": "https://github.com/Conjectural-Technologies/advanced-species/releases/latest/download/module.json",
+  "download": "https://github.com/Conjectural-Technologies/advanced-species/releases/download/v1.2.3/module.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "mxeac"
+    }
+  ],
+  "esmodules": [
+    "scripts/advanced-creature-types.mjs"
+  ],
+  "styles": [
+    "styles/advanced-creature-types.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.6",
+          "verified": "6.0.6"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "active-effects",
+      "label": "Active Effects",
+      "path": "packs/active-effects",
+      "type": "ActiveEffect",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Advanced Species",
+      "color": "#6f0006",
+      "sorting": "m",
+      "packs": [
+        "active-effects",
+        "actors",
+        "items",
+        "journals"
+      ],
+      "folders": []
+    }
+  ]
+}

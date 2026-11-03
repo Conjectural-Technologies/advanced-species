@@ -1,0 +1,32 @@
+.advanced-creature-types .types-list .type-row {
+  padding-block: 2px;
+}
+
+.advanced-creature-types .types-list .type-row label {
+  align-items: center;
+}
+
+.advanced-creature-types .types-list .type-row label > span {
+  line-height: 20px;
+}
+
+.advanced-creature-types .types-list .type-row.custom label {
+  padding: 6px 10px;
+}
+
+.advanced-creature-types .types-list .type-row.custom input[type="text"] {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  height: 20px;
+  line-height: 20px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.advanced-creature-types .types-list input[data-advanced-creature-type] {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
