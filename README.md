@@ -1,5 +1,7 @@
 # Advanced Species
 
+**Release:** 2.0.0.
+
 Adds multiple creature types to D&D 5e in Foundry VTT v14, along with a compendium of species traits, creature features, actors and reference material.
 
 **Requirements:** Foundry VTT v14 and the D&D 5e system 6.0.6 or newer. The module adds no settings.
@@ -20,20 +22,11 @@ https://github.com/Conjectural-Technologies/advanced-species/releases/latest/dow
 - Custom types are supported, and multiple types are shown as a localised list in actor labels.
 - Species carry the same multi-type data, so a species can grant several types.
 - Actors expose a `creatureTypes` set for macros and other modules.
+- If another module changes the primary type without updating the additional types, stale additional types are ignored until they include the new primary.
 
 ### Object creature type
 - Adds **Object** as a selectable creature type, with its own icon.
 - An actor whose only type is Object is not treated as a creature.
-
-### Compendium content
-Four compendium packs are provided. Players have Observer access and assistants have Owner access. Pack contents are binary databases, so the descriptions below are general.
-
-| Pack | Contents |
-|---|---|
-| **Items** (largest) | Species, traits and creature features, such as breath weapons, lycanthropy and other species abilities. |
-| **Actors** | Transformation forms such as were-creatures and ooze forms. |
-| **Active Effects** | A small set of reusable effects. |
-| **Journals** | A reference journal, including a guide to dropping enchantments onto item chat cards. |
 
 ### Icons
 - About 70 bundled SVG icons used by the compendium content.

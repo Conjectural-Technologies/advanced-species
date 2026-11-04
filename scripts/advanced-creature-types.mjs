@@ -11,6 +11,10 @@ function extendCreatureType(field) {
   });
 }
 
+function configuredCreatureType(editor) {
+  return foundry.utils.getProperty(editor.document.system._source, editor.options.keyPath);
+}
+
 function registerTypeEditor() {
   const prototype = dnd5e.applications.shared.CreatureTypeConfig.prototype;
   const processFormData = prototype._processFormData;
@@ -21,7 +25,7 @@ function registerTypeEditor() {
 
     const values = Array.from(inputs).filter(input => input.checked).map(input => input.value);
     const path = `system.${this.options.keyPath}`;
-    const current = foundry.utils.getProperty(this.document.system._source, this.options.keyPath)?.value;
+    const current = configuredCreatureType(this)?.value;
     foundry.utils.setProperty(data, `${path}.values`, values);
     foundry.utils.setProperty(data, `${path}.value`, values.includes(current) ? current : (values[0] ?? ""));
     delete data.advancedCreatureTypes;
@@ -36,8 +40,7 @@ function registerTypeEditor() {
     root.classList.add("advanced-creature-types");
 
     // Finish the detached content before Foundry inserts and measures the window.
-    const data = foundry.utils.getProperty(this.document.system._source, this.options.keyPath);
-    const selected = new Set(creatureTypes(data));
+    const selected = new Set(creatureTypes(configuredCreatureType(this)));
     for (const input of root.querySelectorAll(`input[type="radio"][name="system.${this.options.keyPath}.value"]`)) {
       input.type = "checkbox";
       input.name = `advancedCreatureTypes.${input.value}`;
@@ -97,7 +100,9 @@ Hooks.once("i18nInit", () => {
       }
 
       get isCreature() {
-        return super.isCreature && !(this.creatureTypes.size === 1 && this.creatureTypes.has("object"));
+        if (!super.isCreature) return false;
+        const types = this.creatureTypes;
+        return !(types.size === 1 && types.has("object"));
       }
     };
   }
